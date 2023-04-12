@@ -1,0 +1,15 @@
+.wrapper {
+    max-width: 70rem;
+    margin: 2rem auto;
+    padding: 0 1rem;
+
+    /*Grid vai fazer com que sejam colunas*/
+    display: grid;
+    /*256 px primeira coluna e a segunda vai ser flexivel*/
+    grid-template-columns: 256px 1fr;
+    /*Gap entre as colunas*/
+    gap: 2rem;
+    /*Sidebar e Main sempre fiquem alinhados pro topo*/
+    align-items: flex-start;
+
+}
